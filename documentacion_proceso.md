@@ -1,6 +1,3 @@
-# 📄 2) documentacion_proceso.md
-👉 Archivo: `documentacion_proceso.md`
-
 # Documentación del proceso
 
 ## 1. Creación del código fuente
