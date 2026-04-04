@@ -35,14 +35,8 @@ Solicitar datos de un vehículo y mostrarlos en pantalla usando entrada por tecl
 `java VehiculoApp`
 
 ## Estructura del proyecto
-ProyectoJava/
-├── VehiculoApp.java
-├── README.md
-├── documentacion_proceso.md
-├── historias_usuario.md
-└── evidencias/
-    ├── compilacion.png
-    └── ejecucion.png
+1) ProyectoJava - VehiculoApp.java - README.md - documentacion_proceso.md - historias_usuario.md
+2) evidencias - captura que muestra compliacion y ejecucion + codigo aplicado
 
 
 
