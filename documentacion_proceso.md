@@ -14,7 +14,7 @@ Para mostrar los resultados en pantalla, se utilizó `System.out.println()`, per
 
 ## 5. Compilación del programa
 El programa fue compilado mediante la línea de comandos utilizando el siguiente comando:
-`javac VehiculoApp.java`
+`javac VehiculoApp.java`. Este comando genera el archivo VehiculoApp.class, que contiene bytecode.
 
 ## 6. Ejecucion
 Con el siguiente comando se ejecuto el flujo como tal:
