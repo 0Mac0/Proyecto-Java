@@ -29,5 +29,21 @@ Solicitar datos de un vehículo y mostrarlos en pantalla usando entrada por tecl
 - El código debe incluir comentarios explicativos.
 
 ## Compilación
-```bash
-javac VehiculoApp.java
+`javac VehiculoApp.java`
+
+## Ejecucion
+`java VehiculoApp`
+
+## Estructura del proyecto
+ProyectoJava/
+├── VehiculoApp.java
+├── README.md
+├── documentacion_proceso.md
+├── historias_usuario.md
+└── evidencias/
+    ├── compilacion.png
+    └── ejecucion.png
+
+
+
+
