@@ -1,0 +1,39 @@
+import java.util.Scanner; // Importa la clase Scanner para leer datos desde teclado
+
+public class VehiculoApp { // Declara la clase principal del programa
+
+    public static void main(String[] args) { // Método principal: aquí inicia la ejecución del programa
+        Scanner entrada = new Scanner(System.in); // Crea un objeto Scanner para capturar datos del usuario
+
+        String marca; // Variable para almacenar la marca del vehículo
+        String modelo; // Variable para almacenar el modelo del vehículo
+        int cilindrada; // Variable para almacenar la cilindrada del vehículo
+        String combustible; // Variable para almacenar el tipo de combustible
+        int pasajeros; // Variable para almacenar la capacidad de pasajeros
+
+        System.out.print("Ingrese la marca: "); // Muestra un mensaje para pedir la marca
+        marca = entrada.nextLine(); // Lee la marca ingresada por el usuario
+
+        System.out.print("Ingrese el modelo: "); // Muestra un mensaje para pedir el modelo
+        modelo = entrada.nextLine(); // Lee el modelo ingresado por el usuario
+
+        System.out.print("Ingrese la cilindrada: "); // Muestra un mensaje para pedir la cilindrada
+        cilindrada = entrada.nextInt(); // Lee un número entero para la cilindrada
+
+        entrada.nextLine(); // Limpia el buffer para evitar errores al leer texto después de un entero
+
+        System.out.print("Ingrese el tipo de combustible: "); // Muestra un mensaje para pedir el combustible
+        combustible = entrada.nextLine(); // Lee el combustible ingresado por el usuario
+
+        System.out.print("Ingrese la capacidad de pasajeros: "); // Muestra un mensaje para pedir pasajeros
+        pasajeros = entrada.nextInt(); // Lee un número entero para la capacidad de pasajeros
+
+        System.out.println("La marca que ha ingresado es: " + marca); // Muestra la marca ingresada
+        System.out.println("El modelo que ha ingresado es: " + modelo); // Muestra el modelo ingresado
+        System.out.println("La cilindrada que ha ingresado es: " + cilindrada); // Muestra la cilindrada ingresada
+        System.out.println("El tipo de combustible es: " + combustible); // Muestra el combustible ingresado
+        System.out.println("Tiene una capacidad de " + pasajeros + " pasajeros."); // Muestra la capacidad de pasajeros
+
+        entrada.close(); // Cierra el objeto Scanner
+    }
+}
