@@ -19,3 +19,9 @@ El programa fue compilado mediante la línea de comandos utilizando el siguiente
 ## 6. Ejecucion
 Con el siguiente comando se ejecuto el flujo como tal:
 `java VehiculoApp`
+
+## 7. Evidencias
+Se tomaron capturas del proceso de compilación y ejecución para respaldar el trabajo.
+
+## 8. Relacion con JVM
+La máquina virtual Java permite que el programa pueda ejecutarse en distintos entornos compatibles, sin depender directamente del sistema operativo.
