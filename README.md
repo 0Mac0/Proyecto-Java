@@ -66,6 +66,23 @@ public class VehiculoApp { // Declara la clase principal del programa
         System.out.println("El tipo de combustible es: " + combustible); // Muestra el combustible ingresado
         System.out.println("Tiene una capacidad de " + pasajeros + " pasajeros."); // Muestra la capacidad de pasajeros
 
+## Compilación
+javac VehiculoApp.java
+
+## Ejecución
+java VehiculoApp
+Ingrese la marca: Toyota
+Ingrese el modelo: Yaris
+Ingrese la cilindrada: 1500
+Ingrese el tipo de combustible: Bencina
+Ingrese la capacidad de pasajeros: 5
+
+La marca que ha ingresado es: Toyota
+El modelo que ha ingresado es: Yaris
+La cilindrada que ha ingresado es: 1500
+El tipo de combustible es: Bencina
+Tiene una capacidad de 5 pasajeros.
+
         entrada.close(); // Cierra el objeto Scanner
     }
 }
