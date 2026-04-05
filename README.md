@@ -1,5 +1,5 @@
 # Proyecto Java sin IDE
-(evidencias/AIEP.png)
+![Logo](evidencias/logo.png)
 
 ## Descripción
 Aplicación básica desarrollada en Java sin utilizar una herramienta IDE. El programa es compilado desde la línea de comandos utilizando `javac` y ejecutado mediante la máquina virtual de Java (JVM) con el comando `java`.
