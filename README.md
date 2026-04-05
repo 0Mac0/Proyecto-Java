@@ -69,12 +69,13 @@ public class VehiculoApp { // Declara la clase principal del programa
         entrada.close(); // Cierra el objeto Scanner
     }
 }
+```
 
-## Compilación
+## Compilación y ejecución
+```bash
 javac VehiculoApp.java
-
-## Ejecución
 java VehiculoApp
+
 Ingrese la marca: Toyota
 Ingrese el modelo: Yaris
 Ingrese la cilindrada: 1500
@@ -86,4 +87,16 @@ El modelo que ha ingresado es: Yaris
 La cilindrada que ha ingresado es: 1500
 El tipo de combustible es: Bencina
 Tiene una capacidad de 5 pasajeros.
+```
 
+## Estructura del proyecto
+```text
+ProyectoJava/
+├── VehiculoApp.java
+├── README.md
+├── documentacion_proceso.md
+├── historias_usuario.md
+└── evidencias/
+    ├── compilacion.png
+    └── ejecucion.png
+```
