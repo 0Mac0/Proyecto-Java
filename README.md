@@ -1,7 +1,7 @@
 # Proyecto Java sin IDE
 
 ## Descripción
-Aplicación básica desarrollada en Java sin utilizar IDE, compilada desde línea de comando con `javac` y ejecutada con la JVM mediante `java`.
+Aplicación básica desarrollada en Java sin utilizar IDE, compilada desde línea de comando con `javac` y ejecutada mediante la JVM con `java`.
 
 ## Objetivo
 Solicitar datos de un vehículo y mostrarlos en pantalla usando entrada por teclado.
@@ -28,16 +28,20 @@ Solicitar datos de un vehículo y mostrarlos en pantalla usando entrada por tecl
 - El proyecto debe documentarse en GitHub.
 - El código debe incluir comentarios explicativos.
 
-## Compilación
-`javac VehiculoApp.java`
+## Código fuente
+```java
+import java.util.Scanner;
 
-## Ejecucion
-`java VehiculoApp`
+public class VehiculoApp {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
 
-## Estructura del proyecto
-1) ProyectoJava - VehiculoApp.java - README.md - documentacion_proceso.md - historias_usuario.md
-2) evidencias - captura que muestra compliacion y ejecucion + codigo aplicado
+        System.out.print("Ingrese la marca: ");
+        String marca = entrada.nextLine();
 
+        System.out.println("La marca es: " + marca);
+    }
+}
 
 
 
