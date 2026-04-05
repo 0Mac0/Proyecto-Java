@@ -79,13 +79,13 @@ java VehiculoApp
 Ingrese la marca: Toyota
 Ingrese el modelo: Yaris
 Ingrese la cilindrada: 1500
-Ingrese el tipo de combustible: Bencina
+Ingrese el tipo de combustible: Bencina 93 oc
 Ingrese la capacidad de pasajeros: 5
 
 La marca que ha ingresado es: Toyota
 El modelo que ha ingresado es: Yaris
 La cilindrada que ha ingresado es: 1500
-El tipo de combustible es: Bencina
+El tipo de combustible es: Bencina 93 oc
 Tiene una capacidad de 5 pasajeros.
 ```
 
