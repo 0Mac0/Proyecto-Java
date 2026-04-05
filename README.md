@@ -98,7 +98,7 @@ ProyectoJava/
 ├── historias_usuario.md
 └── evidencias/
     ├── compilacion y ejecucion.png
-    ├── Cronograma inicial.png
+    ├── CRONOGRAMA.png
     ├── Codigo aplicado.png
-    ├──
+    ├── Ubicacion archivo.png
 ```
